@@ -1,10 +1,8 @@
 from tsanalyzer.periodicity import STLAnalyzer
+import pandas as pd
+import numpy as np
 
 if __name__ == "__main__":
-    import pandas as pd
-    import numpy as np
-
-    # 构造一个合成时间序列（趋势 + 季节 + 噪声）
     t = pd.date_range(start="2000-01-01", periods=730, freq="D")
     seasonal = 10 * np.sin(2 * np.pi * np.arange(730) / 365)
     trend = 0.05 * np.arange(730)

@@ -1,8 +1,7 @@
 from tsanalyzer.periodicity import FFTAnalyzer
+import numpy as np
 
 if __name__ == "__main__":
-    import numpy as np
-
     fs = 1000
     t = np.linspace(0, 1, fs, endpoint=False)
     y = 3 * np.sin(2 * np.pi * 50 * t) + 2 * np.sin(2 * np.pi * 120 * t)

@@ -9,6 +9,7 @@
 ### ✅ Periodicity Detection (Implemented)
 - `FFTAnalyzer`: Fast Fourier Transform for frequency spectrum analysis.
 - `STLAnalyzer`: Seasonal-Trend decomposition using Loess (STL) for seasonal and trend separation.
+- `ACFAnalyzer`: AutoCorrelation Function analysis for identifying periodic lags in time series.
 
 ### 🚧 In Progress
 - Randomness metrics (entropy-based, chaos analysis, etc.)
