@@ -15,11 +15,15 @@
 - `LombScargleAnalyzer`: Lomb-Scargle periodogram for frequency analysis of irregularly-sampled (non-uniform) time series.
 
 
-### 🚧 In Progress
-- Randomness metrics (entropy-based, chaos analysis, etc.)
-- Change point detection (CUSUM, PELT, Bayesian Online Change Point Detection)
-- Visualization utilities for exploratory data analysis
+### ✅ Randomness Estimation (Implemented)
 
+- `RunsTestAnalyzer`: Non-parametric runs test for assessing randomness based on sign changes. Useful for detecting hidden trends or structural bias.
+
+### 🚧 In Progress
+
+- Additional randomness metrics (entropy-based, permutation entropy, chaos tests)
+- Change point detection (CUSUM, PELT, Bayesian Online Change Point Detection)
+- Visualization utilities for exploratory time series analysis
 ---
 
 ## 📦 Installation
