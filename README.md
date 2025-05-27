@@ -7,9 +7,13 @@
 ## ✨ Features
 
 ### ✅ Periodicity Detection (Implemented)
+
 - `FFTAnalyzer`: Fast Fourier Transform for frequency spectrum analysis.
 - `STLAnalyzer`: Seasonal-Trend decomposition using Loess (STL) for seasonal and trend separation.
 - `ACFAnalyzer`: AutoCorrelation Function analysis for identifying periodic lags in time series.
+- `WaveletAnalyzer`: Multi-scale Discrete Wavelet Transform (DWT) for dominant cycle detection and signal reconstruction.
+- `LombScargleAnalyzer`: Lomb-Scargle periodogram for frequency analysis of irregularly-sampled (non-uniform) time series.
+
 
 ### 🚧 In Progress
 - Randomness metrics (entropy-based, chaos analysis, etc.)
