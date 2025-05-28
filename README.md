@@ -14,10 +14,10 @@
 - `WaveletAnalyzer`: Multi-scale Discrete Wavelet Transform (DWT) for dominant cycle detection and signal reconstruction.
 - `LombScargleAnalyzer`: Lomb-Scargle periodogram for frequency analysis of irregularly-sampled (non-uniform) time series.
 
-
 ### ✅ Randomness Estimation (Implemented)
 
 - `RunsTestAnalyzer`: Non-parametric runs test for assessing randomness based on sign changes. Useful for detecting hidden trends or structural bias.
+- `ShannonEntropyAnalyzer`: Shannon entropy estimation via histogram binning to quantify uncertainty and complexity in time series. Higher entropy indicates more randomness.
 
 ### 🚧 In Progress
 

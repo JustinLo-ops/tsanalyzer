@@ -4,3 +4,4 @@ pandas==2.2.3
 scipy==1.15.3
 setuptools==80.8.0
 statsmodels==0.14.4
+PyWavelets==1.6.0
